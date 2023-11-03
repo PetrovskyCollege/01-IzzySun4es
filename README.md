@@ -1,55 +1,55 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/NoA0nk0P)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12715867&assignment_repo_type=AssignmentRepo)
-<h1>База данных cooking_bd</h1><hr>
-Структура таблицы bookmark
-Столбец	Тип	Null	По умолчанию
-id	int	Нет	
-user_id	int	Нет	
-recipe_id	int	Нет	
-Дамп данных таблицы bookmark
-
-Структура таблицы category
-Столбец	Тип	Null	По умолчанию
-id	int	Нет	
-title	varchar(255)	Нет	
-Дамп данных таблицы category
-1	
-2	Первые блюда
-3	Вторые блюда
-4	Закуски
-5	Салаты
-6	Соусы
-7	Кремы
-8	Напитки
-9	Десерты
-10	Выпечка
-11	Торты
-12	Хлеб
-13	Блины
-Структура таблицы comment
-Столбец	Тип	Null	По умолчанию
-id	int	Нет	
-user_id	int	Нет	
-recipe_id	int	Нет	
-text	varchar(255)	Нет	
-data	datetime	Нет	
-Дамп данных таблицы comment
-
-Структура таблицы compound
-Столбец	Тип	Null	По умолчанию
-id	int	Нет	
-recipe_id	int	Нет	
-product_id	int	Нет	
-quantity	int	Нет	
-Дамп данных таблицы compound
-
-Структура таблицы cooking_method
-Столбец	Тип	Null	По умолчанию
-id	int	Нет	
-recipe_id	int	Нет	
-description	varchar(255)	Да	NULL
-video	varchar(255)	Да	NULL
-Дамп данных таблицы cooking_method
+<h1>База данных cooking_bd</h1><br>
+Структура таблицы bookmark<br>
+Столбец	Тип	Null	По умолчанию<br>
+id	int	Нет	<br>
+user_id	int	Нет	<br>
+recipe_id	int	Нет	<br>
+Дамп данных таблицы bookmark<br>
+<br>
+Структура таблицы category<br>
+Столбец	Тип	Null	По умолчанию<br>
+id	int	Нет	<br>
+title	varchar(255)	Нет	<br>
+Дамп данных таблицы category<br>
+1	<br>
+2	Первые блюда<br>
+3	Вторые блюда<br>
+4	Закуски<br>
+5	Салаты<br>
+6	Соусы<br>
+7	Кремы<br>
+8	Напитки<br>
+9	Десерты<br>
+10	Выпечка<br>
+11	Торты<br>
+12	Хлеб<br>
+13	Блины<br>
+Структура таблицы comment<br>
+Столбец	Тип	Null	По умолчанию<br>
+id	int	Нет	<br>
+user_id	int	Нет	<br>
+recipe_id	int	Нет	<br>
+text	varchar(255)	Нет	<br>
+data	datetime	Нет	<br>
+Дамп данных таблицы comment<br>
+<br>
+Структура таблицы compound<br>
+Столбец	Тип	Null	По умолчанию<br>
+id	int	Нет	<br>
+recipe_id	int	Нет	<br>
+product_id	int	Нет	<br>
+quantity	int	Нет	<br>
+Дамп данных таблицы compound<br>
+<br>
+Структура таблицы cooking_method<br>
+Столбец	Тип	Null	По умолчанию<br>
+id	int	Нет	<br>
+recipe_id	int	Нет	<br>
+description	varchar(255)	Да	NULL<br>
+video	varchar(255)	Да	NULL<br>
+Дамп данных таблицы cooking_method<br>
 
 Структура таблицы images
 Столбец	Тип	Null	По умолчанию
