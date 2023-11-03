@@ -1,18 +1,18 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/NoA0nk0P)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12715867&assignment_repo_type=AssignmentRepo)
 <h1>База данных cooking_bd</h1><br>
-Структура таблицы bookmark<br>
-Столбец	Тип	Null	По умолчанию<br>
+<h3>Структура таблицы bookmark</h3><br>
+<h5>Столбец	Тип	Null	По умолчанию</h5><br>
 id	int	Нет	<br>
 user_id	int	Нет	<br>
 recipe_id	int	Нет	<br>
-Дамп данных таблицы bookmark<br>
+<h3>Дамп данных таблицы bookmark</h3><br>
 <br>
-Структура таблицы category<br>
-Столбец	Тип	Null	По умолчанию<br>
+<h3>Структура таблицы category</h3><br>
+<h5>Столбец	Тип	Null	По умолчанию</h5><br>
 id	int	Нет	<br>
 title	varchar(255)	Нет	<br>
-Дамп данных таблицы category<br>
+<h3>Дамп данных таблицы category</h3><br>
 1	<br>
 2	Первые блюда<br>
 3	Вторые блюда<br>
@@ -26,17 +26,17 @@ title	varchar(255)	Нет	<br>
 11	Торты<br>
 12	Хлеб<br>
 13	Блины<br>
-Структура таблицы comment<br>
-Столбец	Тип	Null	По умолчанию<br>
+<h3>Структура таблицы comment</h3><br>
+<h5>Столбец	Тип	Null	По умолчанию</h5><br>
 id	int	Нет	<br>
 user_id	int	Нет	<br>
 recipe_id	int	Нет	<br>
 text	varchar(255)	Нет	<br>
 data	datetime	Нет	<br>
-Дамп данных таблицы comment<br>
+<h3>Дамп данных таблицы comment</h3><br>
 <br>
-Структура таблицы compound<br>
-Столбец	Тип	Null	По умолчанию<br>
+<h3>Структура таблицы compound</h3><br>
+<h5>Столбец	Тип	Null	По умолчанию</h5><br>
 id	int	Нет	<br>
 recipe_id	int	Нет	<br>
 product_id	int	Нет	<br>
